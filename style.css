@@ -295,20 +295,58 @@ img {
   border-radius: .5rem;
 }
 /* ===== WORK =====*/
-.work__container {
-  row-gap: 2rem;
+.projects {
+  color: #fff;
+  padding: 32px 0;
+  margin-top: 2rem;
 }
-.work__img {
-  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
-  border-radius: .5rem;
-  overflow: hidden;
+.projects-title{
+  color: #1c99fe;
+  margin-left:40px ;
+  margin-bottom: 5px;
+}
+.project-title{
+  color: #fd4766;
+}
+.project-pic {
+  width: 65%;
+  height: 60%;
 }
 
-.work__img img {
-  transition: 1s;
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}  
+.projects-title {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 30px;
 }
-.work__img img:hover {
-  transform: scale(1.1);
+
+.project-container {
+  text-align: center;
+  width: 21.875rem;
+  padding: 1rem;
+}
+.project-container p {
+  padding: 0.2rem;
+}
+
+.project-title {
+  margin-bottom: var(--bottom-margin);
+}
+
+.project-details {
+  margin-bottom: var(--bottom-margin);
+}
+
+.project-card {
+  background-image: linear-gradient(#468BF0, grey);
+  border-radius: 11px;
+  box-shadow: 0 3px 10px  #1c99fe;
+  padding: 20px;
+  margin: 10px;
 }
 /* ===== CONTACT =====*/
 .contact__input {
